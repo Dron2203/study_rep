@@ -1,4 +1,4 @@
-csvfile = open('user.csv','r')
+csvfile = open('user.csv', 'r')
 
 for line in csvfile:
     split_line = line.split(';')
